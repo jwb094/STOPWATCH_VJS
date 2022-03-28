@@ -20,7 +20,8 @@ function stopwatch(){
             seconds.innerHTML = getSeconds;
         }
         if (getSeconds < 10) {
-            seconds.innerHTML = "0"+getMinutes;
+            seconds.innerHTML = "0"+ getSeconds;
+            console.log(seconds.innerHTML);
         }
 
         if (getSeconds >= 60) {
